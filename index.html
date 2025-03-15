@@ -73,7 +73,7 @@
             </ul>
         </div>
     </div>
-
+    <!-- https://raw.githubusercontent.com/180896-cse/180896-cse.github.io/master/images/githib-profile.jpg -->
     <!-- Abouts Page -->
     <div id="about">
         <div id="about-container" class="container">
@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <br />
-                    <img id="mypic" class="img-fluid mx-auto" src="https://raw.githubusercontent.com/180896-cse/180896-cse.github.io/master/images/githib-profile.jpg" />
+                    <img id="mypic" class="img-fluid mx-auto" src="./images/github-profile.jpg" />
                 </div>
                 <div class="col-lg-8 col-md-8 col-xs-12">
                     <div id="about-hemakshi" class="jumbotron bg-white">
@@ -117,8 +117,9 @@
             <h1 id="h1-projects" class="text-center">Projects</h1>
             <br />
             <ul id="pagination-projects" class="pagination pagination-lg justify-content-center">
+                <li id="li-api-dev" class="page-item"><a id="a-api-dev" class="page-link">Backend/API Development</a></li>
                 <li id="li-full-stack" class="page-item active"><a id="a-full-stack" class="page-link">Full-Stack</a></li>
-                <!-- <li id="li-api-dev" class="page-item"><a id="a-api-dev" class="page-link">API Development</a></li> -->
+                
                 <!-- <li id="li-front-end" class="page-item"><a id="a-front-end" class="page-link">Front-End</a></li> -->
             </ul>
 
@@ -169,7 +170,62 @@
                 </div>
             </div>
 
-            
+             <!-- API Development -->
+             <div id="api-dev">
+                <div id="api-dev-projects">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <img class="card-img" src="./images/npm-package.png">
+                            <div class="card-img-overlay text-light">
+                                <h5 class="card-title">NPM Package</h5>
+                                <p class="card-text">
+                                    An NPM package in JavaScript leveraging OOP principles to accurately detect file types
+                                    based on magic numbers even when file extensions are altered, achieving 300+ active downloads.
+                                </p>
+                                <a class="card-link" href="https://www.npmjs.com/package/get-typeandmime?activeTab=readme" target="_blank">Live App</a>
+                                <a class="card-link" href="https://github.com/180896-cse/file-type" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <img class="card-img" src="./images/serverless-webscrapper.png">
+                            <div class="card-img-overlay text-light">
+                                <h5 class="card-title">Serverless web-crawler</h5>
+                                <p class="card-text">
+                                    A scalable backend service using JavaScript and Serverless Framework, leveraging AWS
+                                    Lambda, SQS, and DynamoDB to create a robust event-driven architecture to Scrap data from given weblink with
+                                    automated infrastructure deployment
+                                </p>
+                                <!-- <a class="card-link" href="https://isal-hemakshis.glitch.me" target="_blank">Live App</a> -->
+                                <a class="card-link" href="https://github.com/180896-cse/Serverless-Crwlr" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <img class="card-img" src="./images/URL-Shortener.png">
+                            <div class="card-img-overlay text-light">
+                                <h5 class="card-title">URL Shortener Service</h5>
+                                <p class="card-text">
+                                    An URL Shortener service using GraphQL, Typescript, AWS DynamoDB.
+                                </p>
+                                <!-- <a class="card-link" href="https://timestamp-hemakshis.herokuapp.com" target="_blank">Live App</a> -->
+                                <a class="card-link" href="https://github.com/180896-cse/GraphQl-Uri-Shortner" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <img class="card-img" src="./images/s3-replica.png">
+                            <div class="card-img-overlay text-light">
+                                <h5 class="card-title">Custom S3 Service</h5>
+                                <p class="card-text">
+                                    A fully-functional AWS S3 storage replica using TypeScript and Node.js/Express, incorporating JWT authentication, comprehensive API documentation via Swagger, and MongoDB integration for robust file management and user data persistence.
+                                </p>
+                                <!-- <a class="card-link" href="https://myfile-hemakshis.herokuapp.com" target="_blank">Live App</a> -->
+                                <a class="card-link" href="https://github.com/180896-cse/s3-replica" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Front-End -->
             <div id="front-end">
@@ -239,7 +295,7 @@
                       <a href="https://www.linkedin.com/in/shantanu-p-291b991b4/" target="_blank"><i class="fa fa-linkedin"></i></a>
                   </li>
                   <li>
-                      <a href="https://medium.com/@shantanupratap180896" target="_blank"><i class="fa fa-medium"></i></a>
+                      <a href="https://lastdove.medium.com/" target="_blank"><i class="fa fa-medium"></i></a>
                   </li>
               </ul>
         </div>

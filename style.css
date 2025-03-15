@@ -33,7 +33,7 @@ nav {
 }
 
 #home {
-    background: url("https://raw.githubusercontent.com/hemakshis/hemakshis.github.io/master/images/home-bg.jpeg") no-repeat center center;
+    background: url("./images/home-bg.jpeg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -83,7 +83,7 @@ nav {
     margin: auto;
     top: -36px;
     bottom: 0;
-    height: 380px;
+    height: 450px;
 }
 
 #h1-about, #h1-projects {
